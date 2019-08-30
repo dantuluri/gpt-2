@@ -39,6 +39,8 @@ def sample_model(
      special setting meaning no restrictions. 40 generally is a good value.
      :models_dir : path to parent folder containing model subfolders
      (i.e. contains the <model_name> folder)
+    :top_p=0.0 : Float value controlling diversity. Implements nucleus sampling,
+     overriding top_k if set to a value > 0. A good setting is 0.9.
     """
     models_dir = os.path.expanduser(os.path.expandvars(models_dir))
     enc = encoder.get_encoder(model_name, models_dir)
@@ -77,4 +79,3 @@ def sample_model(
 
 if __name__ == '__main__':
     fire.Fire(sample_model)
-

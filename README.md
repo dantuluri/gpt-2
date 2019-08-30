@@ -1,6 +1,36 @@
-**Status:** Archive (code is provided as-is, no updates expected)
+# Train GPT-2
 
-# gpt-2
+## Fine tuning on custom datasets
+
+To retrain GPT-2 small (124M parameter), medium (355M parameter), large (774M parameter), and (upcoming) mega (1.5B) parameter models on a custom text dataset:
+
+```
+PYTHONPATH=src ./train.py --dataset <file|directory|glob>
+```
+
+If you want to precompute the dataset's encoding for multiple runs, you can instead use:
+
+```
+PYTHONPATH=src ./encode.py <file|directory|glob> /path/to/encoded.npz
+PYTHONPATH=src ./train.py --dataset /path/to/encoded.npz
+```
+
+Make sure `cudnn` is installed. [Some have reported](https://github.com/nshepperd/gpt-2/issues/8) that `train.py` runs without it but has worse memory usage and might OOM.
+
+### Gradient Checkpointing
+
+https://github.com/openai/gradient-checkpointing is included to reduce the memory requirements of the model, and can be enabled by `--memory_saving_gradients`. The checkpoints are currently chosen manually (poorly) by just adding layer 10 to the 'checkpoints' collection in model.py. `--memory_saving_gradients` is enabled by default for training the 345M model.
+
+### Validation loss
+
+Set `--val_every` to a number of steps `N > 0`, and "validation" loss against a fixed sample of the dataset will be calculated every N steps to get a better sense of training progress. N around 200 suggested. You can set `--val_dataset` to choose a separate validation dataset, otherwise it defaults to a sample from the train dataset (so not a real cross-validation loss!).
+
+### Optimizer
+
+You can use SGD instead of Adam with `--optimizer sgd`. This also helps conserve memory when training the 345M model. Note: the learning rate needs to be adjusted for SGD, due to not having Adam's gradient normalization (0.0006 seems to be a good number from some experiments).
+
+### Multi gpu (not supported, PR is welcome)
+
 
 Code from the paper ["Language Models are Unsupervised Multitask Learners"](https://d4mucfpksywv.cloudfront.net/better-language-models/language-models.pdf).
 
@@ -36,6 +66,16 @@ See [DEVELOPERS.md](./DEVELOPERS.md)
 
 See [CONTRIBUTORS.md](./CONTRIBUTORS.md)
 
+
+## GPT-2 samples
+
+| WARNING: Samples are unfiltered and may contain offensive content. |
+| --- |
+
+While we have not yet released GPT-2 itself, you can see some samples from it in the `gpt-2-samples` folder.
+We show unconditional samples with default settings (temperature 1 and no truncation), with temperature 0.7, and with truncation with top_k 40.
+We show conditional samples, with contexts drawn from `WebText`'s test set, with default settings (temperature 1 and no truncation), with temperature 0.7, and with truncation with top_k 40.
+
 ## Citation
 
 Please use the following bibtex entry:
@@ -46,6 +86,7 @@ Please use the following bibtex entry:
   year={2019}
 }
 ```
+Reference:  ["Beginner’s Guide to Retrain GPT-2 (117M) to Generate Custom Text Content"](https://medium.com/@ngwaifoong92/beginners-guide-to-retrain-gpt-2-117m-to-generate-custom-text-content-8bb5363d8b7f)
 
 ## Future work
 
@@ -56,3 +97,5 @@ We are still considering release of the larger models.
 ## License
 
 [MIT](./LICENSE)
+
+
