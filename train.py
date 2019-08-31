@@ -128,17 +128,6 @@ def main():
             opt = tf.train.AdamOptimizer(learning_rate=args.learning_rate)
         elif args.optimizer == 'sgd':
             opt = tf.train.GradientDescentOptimizer(learning_rate=args.learning_rate)
-
-
-        """
-        SM3 Optimizer:
-
-        Stability/Optimal hyperparams:
-
-        momentum = 0.9
-
-        """
-
         elif args.optimizer = 'sm3':
             opt = SM3Optimizer(learning_rate=args.learning_rate,momentum=0.9)
         else:
