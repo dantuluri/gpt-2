@@ -136,10 +136,11 @@ def main():
         Stability/Optimal hyperparams:
 
         momentum = 0.9
+
         """
 
         elif args.optimizer = 'sm3':
-            opt = SM3Optimizer(learning_rate=args.learning_rate)
+            opt = SM3Optimizer(learning_rate=args.learning_rate,momentum=0.9)
         else:
             exit('Bad optimizer:', args.optimizer)
 
