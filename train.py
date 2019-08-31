@@ -16,6 +16,8 @@ from load_dataset import load_dataset, Sampler
 from accumulate import AccumulatingOptimizer
 import memory_saving_gradients
 
+from sm3 import SM3Optimizer
+
 CHECKPOINT_DIR = 'checkpoint'
 SAMPLE_DIR = 'samples'
 
@@ -34,7 +36,7 @@ parser.add_argument('--learning_rate', metavar='LR', type=float, default=0.00002
 parser.add_argument('--accumulate_gradients', metavar='N', type=int, default=1, help='Accumulate gradients across N minibatches.')
 parser.add_argument('--memory_saving_gradients', default=False, action='store_true', help='Use gradient checkpointing to reduce vram usage.')
 parser.add_argument('--only_train_transformer_layers', default=False, action='store_true', help='Restrict training to the transformer blocks.')
-parser.add_argument('--optimizer', type=str, default='adam', help='Optimizer. <adam|sgd>.')
+parser.add_argument('--optimizer', type=str, default='adam', help='Optimizer. <adam|sgd|sm3>.')
 parser.add_argument('--noise', type=float, default=0.0, help='Add noise to input training data to regularize against typos.')
 
 parser.add_argument('--top_k', type=int, default=40, help='K for top-k sampling.')
@@ -85,6 +87,11 @@ def main():
         if args.optimizer == 'adam':
             args.only_train_transformer_layers = True
 
+    if args.model_name == '774M':
+        args.memory_saving_gradients = True
+        if args.optimizer == 'sm3':
+            args.only_train_transformer_layers = True
+
     config = tf.ConfigProto()
     config.gpu_options.allow_growth = True
     config.graph_options.rewrite_options.layout_optimizer = rewriter_config_pb2.RewriterConfig.OFF
@@ -121,6 +128,18 @@ def main():
             opt = tf.train.AdamOptimizer(learning_rate=args.learning_rate)
         elif args.optimizer == 'sgd':
             opt = tf.train.GradientDescentOptimizer(learning_rate=args.learning_rate)
+
+
+        """
+        SM3 Optimizer:
+
+        Stability/Optimal hyperparams:
+
+        momentum = 0.9
+        """
+
+        elif args.optimizer = 'sm3':
+            opt = SM3Optimizer(learning_rate=args.learning_rate)
         else:
             exit('Bad optimizer:', args.optimizer)
 
@@ -151,7 +170,7 @@ def main():
 
         saver = tf.train.Saver(
             var_list=all_vars,
-            max_to_keep=5,
+            max_to_keep=5000,
             keep_checkpoint_every_n_hours=2)
         sess.run(tf.global_variables_initializer())
 
