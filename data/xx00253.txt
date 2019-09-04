@@ -1,0 +1,18 @@
+Customers and retailers may have one less reason to dislike new chip-enabled debit and credit cards — if only by a little bit.
+Visa said on Tuesday that it would begin providing software to reduce the time people spend using new chip cards, which have small metallic squares on the front.
+The changes address one of the widespread complaints about the cards, that they take too long to process. The cards now have to be inserted into a slot for an extended period, irritating many shoppers used to swiping their cards and quickly putting them away.
+“We’ve definitely been talking to merchants about how we can speed things up,” said Stephanie Ericksen, the vice president for risk products at Visa. The upgrade will apply only to Visa cards for now.
+Visa said that the new software would allow customers to dip and remove their cards from payment terminals in two seconds or less. Customers will also be able to dip their cards before a cashier finishes ringing up all their items.
+Dipping a card, versus swiping it, has generated seemingly endless complaints about longer wait times. Many customers continue to swipe out of habit.
+The new security chips contain different data from the information on a magnetic stripe and they are intended to make it harder for thieves to create counterfeit cards. The new technology, known as E.M.V., stands for Europay, MasterCard and Visa.
+The retail industry has fought E.M.V. adoption, saying that it helps only the banks at an unjustified cost to merchants. On Oct. 1, Visa and MasterCard, two of the world’s largest payment networks, shifted much of the liability for counterfeit cards from banks to merchants who cannot accept E.M.V.
+Merchants who wished to upgrade were also required to get their new systems certified by the payment processors, which act as digital couriers between card issuers and merchants. Processors help a merchant’s payment terminal communicate with a bank, for example, by sending signals over electronic highways like Visa or MasterCard.
+Visa said the new software would not require merchants to get recertified. The company also said it was making the update available free to payment intermediaries like processors, terminal manufacturers and other technology partners. Visa said those intermediaries would be in charge of determining whether merchants pay for the upgrade.
+Many merchants have reported delays in getting their payment systems certified. That has cost some retailers thousands of dollars in fraudulent charges under the new liability rules.
+Avi Kaner, a co-owner of the Morton Williams grocery chain in New York, said in an email that he was still waiting to get his systems certified by payment processors.
+“If we cannot accept E.M.V., it doesn’t matter,” he said about the new software.
+Some retailers have already taken steps to reduce transaction times. Walmart, the nation’s largest retailer, shaved 11 seconds off its processing time by removing a prompt for customers to confirm a purchase amount, among other steps, according to a spokesman, Randy Hargrove.
+The new chip technology takes an average of eight to 12 seconds to process, according to one study by JDA Software Group, a retail software provider. Martin Reynolds, JDA’s vice president of retail solutions, said that the study was commissioned by a retailer but declined to say which one, citing client confidentiality.
+The study compared two different payment machines, and it accounted only for dipping and processing times, not any time spent fumbling with the correct payment method.
+Merchants can download the new software onto their existing payment hardware. The software is compatible with all existing payment devices, Ms. Ericksen said.
+

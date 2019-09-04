@@ -1,0 +1,22 @@
+Libby Lewis is a journalist who has written about the private equity industry for the Edmond J. Safra Center for Ethics at Harvard.
+It did not receive much notice, but a decision by a federal judge in Massachusetts has reverberated loudly through the private equity industry.
+Late last month, Judge Douglas P. Woodlock of the United States District Court in Massachusetts found that two private equity funds were jointly liable for the pension fund debt of one of the companies they acquired.
+“The private equity world is all over this,” said Paul Secunda, a labor law and employee benefits expert at Marquette University Law School. “For everybody else, it’s like, what’s the big deal?”
+To answer that, it helps to go back to the beginning of the story.
+It started with a Rhode Island company, Scott Brass, which makes brass and copper for all sorts of industries. In 2007, an affiliate of the private equity firm Sun Capital Partners bought Scott Brass, splitting the ownership between two separate Sun Capital funds.
+A year later, Scott Brass went bankrupt and stopped contributing to its pension fund, run by the New England Teamsters and Trucking Industry Pension Fund.
+Federal law imposes pension liability on any “trade or business” that is under “common control” with Scott Brass. The pension fund argued that Sun Capital’s funds met that definition — and should be liable for the $4.5 million pension fund debt.
+In 2013, the United States Court of Appeals for the First Circuit found that one of Sun’s funds did constitute a “trade or business” — the first time a private equity fund was classified as such. The appeals court sent the case back to a lower court to decide whether Sun’s other fund was “a trade or business” as well.
+On March 28, Judge Woodlock found not only that the other fund’s activities met the test of being “a trade or business,” he also found that the two funds served as a “partnership in fact” — one that was under common control with Scott Brass. That made the funds liable for the pension debt.
+What will it mean if the ruling is upheld on appeal?
+Two years ago, the appeals court’s opinion drew a flurry of attention over whether the Sun Capital case would challenge the foundation of the private equity business model by changing how it is taxed. That’s because the appeals court relied on federal income tax principles to conclude that Sun’s private equity fund was a “trade or business” for the purposes of employee benefits law.
+In theory, if the I.R.S. were to adopt the same reasoning in a tax context, it could kill the goose that lays the golden eggs of the private equity industry: its huge tax breaks. It could do it in a way that would turn the investing world upside down.
+And that’s why it probably will not happen, said Gregg D. Polsky, a tax law professor at the University of North Carolina School of Law who has written critically about the industry’s practices.
+“It could create all sorts of potential headaches and uncertainties for investors,” Professor Polsky said, including foreign investors and tax-exempt investors like university endowments. “I don’t think the I.R.S. is interested in doing that.”
+Until now, private equity firms have looked at companies with underfunded pension plans as undervalued targets, because the private equity firms were not responsible for funding those plans once they took over the company. Now they know they might be if Judge Woodlock’s ruling is upheld on appeal, and if other courts adopt it.
+So, for instance, take the case of Friendly’s, which Sun Capital bought, and whose employee pension plan it abandoned in bankruptcy four years later.
+Had Judge Woodlock’s ruling been on the books and upheld then, Friendly’s would have had a different fate, Professor Secunda of Marquette University said.
+With Friendly’s, Sun “would have been responsible for the pension payments themselves — which would have made it not worth doing in the first place, I would argue,” he said.
+“This changes the calculus, as far as the people who are looking at this as a potential lucrative deal.”
+And in this particular world, that’s big news.
+

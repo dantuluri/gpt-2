@@ -1,0 +1,28 @@
+This interview with Tobi Lütke, C.E.O. of Shopify, an e-commerce software company, was conducted and condensed by Adam Bryant.
+Q. Tell me about your early years.
+A. I grew up in Koblenz, a small town in Germany. I got my first computer when I was 6, and I was part of that early generation of children who grew up with computers always being around. I fell in love with them early on.
+I never cared a lot for school. I categorized school as a history lesson because it was so obvious that computers were different. My parents didn’t understand them, my teachers didn’t. You can imagine the authority problems that stem from a situation where the people you know don’t know anything about the things you care about.
+This is probably why I had to start a company at some point, because I don’t think I could have worked for anyone else. So I taught myself programming, and picked up an apprenticeship when I was 16 as a programmer at Siemens. I never went to university.
+I also have a weird obsession with optimizing things. Even when I was walking to elementary school, I counted the number of steps on different routes so I could figure out which one was shortest.
+I’m always trying to think of ways to make something more efficient. If I have to do something once, that’s fine. If I have to do it twice, I’m kind of annoyed. And if I have to do it three times, I’m going to try to automate it.
+Was becoming a C.E.O. a natural transition for you?
+My co-founder actually was the first C.E.O. I was going to focus on the technology. But he decided to leave when we had about eight employees. I started looking for a C.E.O. for the company. Then one of our early investors took me aside and said: “Tobi, you will never find anyone who’s going to care as much about Shopify as you do. And that’s what you’re looking for, so you need to stop looking.” Sometimes the stars align and you hear the right sentences at the right time.
+What were some early leadership lessons for you?
+The hardest thing for me was to rewrite my own value system to be compatible with my new role. I felt really good about being a computer programmer. It took me years to realize that a day where I met with investors and spoke at a conference was actually not a wasted day. Intellectually I knew this, but internally it just didn’t feel like it.
+I had to systematically rebuild how I measured my own contribution. Once I did that, I started realizing that it’s the team that matters, and that the best way for me to spend any given day is to essentially figure out how to make my team a tiny bit better.
+Because there’s really only two kinds of days — ones when your team gets better and ones when your team gets worse. And if you just spend time getting better, then over a prolonged period of time you become essentially unbeatable.
+Tell me about the culture of your company.
+We’re very honest about everyone’s strengths and weaknesses. We even post them on our internal wiki. Everyone is invited to do it, and they can explain how they like to work and what they value. It takes a year of working together until you sort of understand people. We’ve always been looking for ways to accelerate this.
+Another concept we talk a lot about is something called a “trust battery.” It’s charged at 50 percent when people are first hired. And then every time you work with someone at the company, the trust battery between the two of you is either charged or discharged, based on things like whether you deliver on what you promise.
+Humans already work like this. It’s just that we decided to create a metaphor so that we can talk about this in performance reviews without people feeling like the criticisms are personal.
+I’ve never heard of that before.
+Of the initial team of us that started the company, none of us had any kind of experience of building a company or managing. But we are all supercommitted learners, ferocious readers and personal-growth junkies. So we really committed to giving each other feedback, and we’re trying to expand that to the entire company.
+I work under the assumption that we have no idea how to build companies yet, and that 50 years from now people will look back at the companies of today and they will seem like the black-and-white footage of the first hockey games. We have no idea how to build the best companies yet. To me, that’s the most interesting part. Trying to build a company that I’m going to be less embarrassed about in 50 years than all my peers is a great motivator for me.
+How do you hire?
+Our hiring is almost completely built around just going through someone’s life story, and we look for moments when they had to make important decisions, and we go deep on those.
+I find the strongest predictor of people who do well at Shopify is whether they see opportunity as something to compete for, or do they see opportunity as essentially everywhere and unlimited? It’s a rough proxy for pessimism and optimism.
+This is something we get from the life story without ever asking the question explicitly, which is so much more powerful because people often know how they’re supposed to answer.
+What career and life advice do you give to new college grads?
+It’s pretty simple. I just tell them to optimize their choices to be exposed to growth. Being part of something that’s growing fast is better than being part of something that isn’t growing fast because opportunities are essentially everywhere and you’re not competing for something.
+And I tell people to not treat a career as a ladder. That’s really the most important thing. At our company, we talk about career being more like a jungle gym.
+
