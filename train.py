@@ -82,14 +82,16 @@ def main():
         raise ValueError(
             "Can't get samples longer than window size: %s" % hparams.n_ctx)
 
-    if args.model_name == '345M':
+    if args.model_name == '355M':
         args.memory_saving_gradients = True
+        args.accumulate_gradients = 0 # Do not accumulate gradients
         if args.optimizer == 'adam':
             args.only_train_transformer_layers = True
 
     if args.model_name == '774M':
         args.memory_saving_gradients = True
-        if args.optimizer == 'sm3':
+        args.accumulate_gradients = 1 # accumulate gradients
+        if args.optimizer == 'sm3' or args.optimizer == 'adam':
             args.only_train_transformer_layers = True
 
     config = tf.ConfigProto()
@@ -304,3 +306,4 @@ def main():
 
 if __name__ == '__main__':
     main()
+
