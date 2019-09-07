@@ -1,8 +1,13 @@
 # Train GPT-2
 
-## Fine tuning on custom datasets
+## Fine tuning on custom datasets 
 
 To retrain GPT-2 small (124M parameter), medium (355M parameter), large (774M parameter), and (upcoming) mega (1.5B) parameter models on a custom text dataset:
+
+## How?
+We use Google AI's latest SM3 Optimizer:
+[Memory-Efficient Adaptive Optimization](https://github.com/google-research/google-research/tree/master/sm3)
+
 
 ```
 PYTHONPATH=src ./train.py --dataset <file|directory|glob>
